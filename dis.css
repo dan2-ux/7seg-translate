@@ -1,0 +1,71 @@
+#h{
+    
+    border-radius: 2rem;
+    border:0;
+    color:black;
+    background-color: whitesmoke;
+    grid-area: 13/10/14/11;
+    cursor: pointer;
+}
+body{
+    background-color: hsl(0, 0%, 93%);
+    
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(11,40px);
+    grid-template-rows: repeat(15,40px);
+    position: absolute;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#container #a{
+    grid-area: 1/4/2/9;
+    border-radius: 1rem;
+    border:0;
+    color:black;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+#container #b{
+    grid-area: 2/9/7/10;
+    
+}
+#container #c{
+    grid-area: 8/9/13/10;
+    
+}
+#container #d{
+    grid-area: 13/4/14/9;
+    
+}
+#container #e{
+    grid-area: 8/3/13/4;
+
+}
+#container #f{
+    grid-area: 2/3/7/4;
+}
+
+#container #g{
+    grid-area: 7/4/8/9;
+}
+#container #submit{
+    grid-area: 15/5/16/8;
+}
+
+#a,#b,#c,#d,#e,#f,#g{
+    border-radius: 0.5rem;
+    border:0;
+    color:black;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+
+
+
